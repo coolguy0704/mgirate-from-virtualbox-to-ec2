@@ -1,6 +1,9 @@
 ## Description
 This project provides a step-by-step guide on how to migrate a virtual machine (VM) from VirtualBox to Amazon Elastic Compute Cloud (EC2) by lift-and-shift approach using a combination of tools and services.
 
+![Untitled](https://user-images.githubusercontent.com/116753469/226556045-9861ec0a-97b1-42b6-aa0f-6b704b440945.png)
+
+
 The guide covers the following steps:
 1. Export the VM from VirtualBox in the OVA format.
 2. Create Service Role for VMImport Service to access necessary resources.
