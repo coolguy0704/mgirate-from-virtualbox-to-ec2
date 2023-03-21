@@ -3,9 +3,10 @@ This project provides a step-by-step guide on how to migrate a virtual machine (
 
 The guide covers the following steps:
 1. Export the VM from VirtualBox in the OVA format.
-2. Upload the OVA file to Amazon Simple Storage Service (S3).
-3. Create an Amazon Machine Image (AMI) from the OVA file using the AWS CLI.
-4. Launch an EC2 instance from the AMI.
+2. Create Service Role for VMImport Service to access necessary resources.
+3. Upload the OVA file to Amazon Simple Storage Service (S3).
+4. Create an Amazon Machine Image (AMI) from the OVA file using the AWS CLI.
+5. Launch an EC2 instance from the AMI.
 
 ## Installation
 To use this project, you need to have the following installed:
